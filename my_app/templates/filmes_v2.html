@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/index.css" %}">
+    <link rel="stylesheet" href="{% static "css/filmes.css" %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>A Harry Potter Website</title>
+</head>
+<body>
+<div class="allpage">
+    <div class="menu">
+        <nav>
+            <a href="{%  url 'my_app:home' %}">Home</a>
+                    <a href="#">Personagens</a>
+                    <a href="#">Cadastrar</a>
+                    <a href="{%  url 'my_app:films_v2' %}">Filmes v2</a>
+                    <a href="{%  url 'my_app:index' %}">Filmes</a>
+                    <a href="#"><img src="{% static "css/images/hp_avatar.png" %}" alt="avatar"></a>
+                </nav>
+    </div>
+    <div class="conteudo">
+        <div class="imagem-fundo"></div>
+        <div class="todos-filmes">
+            <div class="linha-filmes">
+                <div class="filme">
+                    <div class="capa"><img src="" alt=""></div>
+                    <div class="infos">
+                        <p class="titulo"></p>
+                        <p class="diretor"></p>
+                        <p class="ano"></p>
+                    </div>
+                </div>
+                <div class="filme">
+                    <div class="capa"><img src="" alt=""></div>
+                    <div class="infos">
+                        <p class="titulo"></p>
+                        <p class="diretor"></p>
+                        <p class="ano"></p>
+                    </div>
+                </div>
+                <div class="filme">
+                    <div class="capa"><img src="" alt=""></div>
+                    <div class="infos">
+                        <p class="titulo"></p>
+                        <p class="diretor"></p>
+                        <p class="ano"></p>
+                    </div>
+                </div>
+                <div class="filme">
+                    <div class="capa"><img src="" alt=""></div>
+                    <div class="infos">
+                        <p class="titulo"></p>
+                        <p class="diretor"></p>
+                        <p class="ano"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-filmes">
+                <div class="filme">
+                    <div class="capa"><img src="" alt=""></div>
+                    <div class="infos">
+                        <p class="titulo"></p>
+                        <p class="diretor"></p>
+                        <p class="ano"></p>
+                    </div>
+                </div>
+                <div class="filme">
+                    <div class="capa"><img src="" alt=""></div>
+                    <div class="infos">
+                        <p class="titulo"></p>
+                        <p class="diretor"></p>
+                        <p class="ano"></p>
+                    </div>
+                </div>
+                <div class="filme">
+                    <div class="capa"><img src="" alt=""></div>
+                    <div class="infos">
+                        <p class="titulo"></p>
+                        <p class="diretor"></p>
+                        <p class="ano"></p>
+                    </div>
+                </div>
+                <div class="filme">
+                    <div class="capa"><img src="" alt=""></div>
+                    <div class="infos">
+                        <p class="titulo"></p>
+                        <p class="diretor"></p>
+                        <p class="ano"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="visualiza-direito">
+            <div id="msg-direito">
+                <p>Clique em um filme para exibir mais detalhes!</p>
+            </div>
+            <div id="conteudo-direito">
+                <p id="visualiza-titulo"></p>
+                <img id="visualiza-imagem" src="" alt="">
+                <p id="visualiza-ano-diretor"></p>
+                <p id="visualiza-sinopse">Harry Potter (Daniel Radcliffe) e seus amigos Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson) seguem à procura das horcruxes. O objetivo do trio é encontrá-las e, em seguida, destruí-las, de forma a eliminar lorde Voldemort (Ralph Fiennes) de uma vez por todas. Com a ajuda do duende Grampo (Warwick Davis), eles entram no banco Gringotes de forma a invadir o cofre de Bellatrix Lestrange (Helena Bonham Carter). De lá retornam ao castelo de Hogwarts, onde precisam encontrar mais uma horcrux. Paralelamente, Voldemort prepara o ataque definitivo ao castelo.</p>
+            </div>
+        </div>
+    </div>
+    <div class="rodape">
+        <p>Página HTML desenvolvida por Lucas B. Galhardi ©</p>
+    </div>
+</div>
+<script src="{% static "js/filmes.js" %}"></script>
+</body>
+</html>

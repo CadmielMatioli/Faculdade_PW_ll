@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static "css/index.css" %}">
+        <title>A Harry Potter Website</title>
+    </head>
+    <body>
+        <div class="allpage">
+            <div class="menu">
+                <nav>
+                    <a href="/home">Home</a>
+                    <a href="personagens.html">Personagens</a>
+                    <a href="form_personagens.html">Cadastrar</a>
+                    <a href="/filmes_v2">Filmes v2</a>
+                    <a href="/index">Filmes</a>
+                    <a href="meu_perfil.html"><img src="{% static "src/../static/images/hp_avatar.png" %}" alt=""></a>
+                </nav>
+            </div>
+            <div class="conteudo">
+                <div class="imagem-fundo"></div>
+                <p class="home">Navegue pelo menu e conheça esse mundo mágico</p>
+            </div>
+            <div class="rodape">
+                <p>Página HTML desenvolvida por Lucas B. Galhardi ©</p>
+            </div>
+        </div>
+    </body>
+</html>

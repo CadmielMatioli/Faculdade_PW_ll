@@ -1,0 +1,30 @@
+<filmes>
+    <filme>
+        <img_src>images/filmes/hp1_filme.jpg</img_src>
+        <titulo>Harry Potter e a Pedra Filosofal</titulo>
+        <ano>2001</ano>
+        <diretor>Chris Colombus</diretor>
+        <sinopse>Harry Potter (Daniel Radcliffe) é um garoto órfão de 10 anos que vive infeliz com seus tios, os Dursley. Até que, repentinamente, ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente Harry é impedido de ler a carta por seu tio Válter (Richard Griffiths), mas logo ele recebe a visita de Hagrid (Robbie Coltrane), o guarda-caça de Hogwarts, que chega em sua casa para levá-lo até a escola. A partir de então Harry passa a conhecer um mundo mágico que jamais imaginara, vivendo as mais diversas aventuras com seus mais novos amigos, Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson).</sinopse>
+    </filme>
+    <filme>
+        <img_src>images/filmes/hp2_filme.jpg</img_src>
+        <titulo>Harry Potter e a Câmara Secreta</titulo>
+        <ano>2002</ano>
+        <diretor>Chris Colombus</diretor>
+        <sinopse>De férias na casa de seus tios Dursley, Harry Potter (Daniel Radcliffe) recebe a inesperada visita de Dobby, um elfo doméstico, que veio avisá-lo para não retornar à Escola de Magia de Hogwarts, pois lá correrá um grande perigo. Harry não lhe dá ouvidos e decide retornar aos estudos, enfrentando um 2º ano recheado de novidades. Uma delas é a contratação do novo Professor de Defesa Contra as Artes das Trevas, Gilderoy Lockhart (Kenneth Branagh), que é considerado um grande galã e não perde uma oportunidade de fazer marketing pessoal. Porém, o aviso de Dobby se confirma e logo toda Hogwarts está envolvida em um mistério que resulta no aparecimento de alunos petrificados.</sinopse>
+    </filme>
+        <filme>
+        <img_src>images/filmes/hp3_filme.jpg</img_src>
+        <titulo>Harry Potter e o Prisioneiro de Azkaban</titulo>
+        <ano>2004</ano>
+        <diretor>Alfonso Cuarón</diretor>
+        <sinopse>...</sinopse>
+    </filme>
+    <filme>
+        <img_src>images/filmes/hp4_filme.webp</img_src>
+        <titulo>Harry Potter e o Cálice de Fogo</titulo>
+        <ano>2005</ano>
+        <diretor>Mike Newell</diretor>
+        <sinopse>...</sinopse>
+    </filme>
+</filmes>

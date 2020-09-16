@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{% static "css/calculator_style.css" %}">
+        <title>Document</title>
+    </head>
+    <body>
+        <table border="3">
+            <tr>
+                <td colspan="12">
+                    <input type="text" id="result" minlength="0" maxlength="5" size="5" inputmode="numeric">
+                    <input type="text" id="resulthide" minlength="0" maxlength="5" size="5" inputmode="numeric" hidden>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="button" onClick="clr()" value="C"></td>
+                <td colspan="4"><input type="button" onClick="dis('.')" value="."></td>
+                <td colspan="4"><input type="button" onClick="dis('/')" value="/"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="button" onClick="dis('+')" value="+"></td>
+                <td colspan="4"><input type="button" onClick="dis('-')" value="-"></td>
+                <td colspan="4"><input type="button" onClick="dis('*')" value="*"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="button" onClick="dis('7')" value="7"></td>
+                <td colspan="4"><input type="button" onClick="dis('8')" value="8"></td>
+                <td colspan="4"><input type="button" onClick="dis('9')" value="9"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="button" onClick="dis('4')" value="4"></td>
+                <td colspan="4"><input type="button" onClick="dis('5')" value="5"></td>
+                <td colspan="4"><input type="button" onClick="dis('6')" value="6"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="button" onClick="dis('1')" value="1"></td>
+                <td colspan="4"><input type="button" onClick="dis('2')" value="2"></td>
+                <td colspan="4"><input type="button" onClick="dis('3')" value="3"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="button" onClick="convert()" value="+/-"></td>
+                <td colspan="4"><input type="button" onClick="dis('0')" value="0"></td>
+                <td colspan="4"><input type="button" onClick="solve()" value="="></td>
+            </div>
+            </tr>
+        </table>          
+        <script src="{% static "js/calculator.js" %}"></script>
+    </body>
+</html>
