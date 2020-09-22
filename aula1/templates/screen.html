@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% extends 'layout.html' %}
+
+{% block body_block %}
+     <h1 class="w-100 text-center">Você está na pagina 1</h1>
+    <div class="text-center">
+        <div class="col-md-12">
+            {% filter force_escape|length %}
+                Numero de Caracteres
+            {% endfilter %}
+        </div>
+        <div class="col-md-12">
+            {% filter force_escape|lower %}
+                Frase em LowerCase
+            {% endfilter %}
+        </div>
+        <div class="col-md-12">
+            {% filter force_escape|upper %}
+                Frase em UperCase
+            {% endfilter %}
+        </div>
+    </div>
+
+
+
+{% endblock %}
