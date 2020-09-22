@@ -25,7 +25,8 @@ SECRET_KEY = '-#m$ij*bsrru=h5yvva!#zg25@&1=c%bw%a%gn*qpb%j!pe5c&'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
+    '127.0.0.1',
+    'cadmiel.pythonanywhere.com'
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
