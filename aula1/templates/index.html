@@ -1,15 +1,7 @@
+{% extends 'layout.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="{% static "css/calculator_style.css" %}">
-        <title>Document</title>
-    </head>
-    <body>
-        <table border="3">
+{% block body_block %}
+    <table border="3">
             <tr>
                 <td colspan="12">
                     <input type="text" id="result" minlength="0" maxlength="5" size="5" inputmode="numeric">
@@ -47,7 +39,5 @@
                 <td colspan="4"><input type="button" onClick="solve()" value="="></td>
             </div>
             </tr>
-        </table>          
-        <script src="{% static "js/calculator.js" %}"></script>
-    </body>
-</html>
+        </table>
+{% endblock %}
