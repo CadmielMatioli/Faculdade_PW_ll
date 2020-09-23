@@ -1,15 +1,6 @@
+{% extends 'layout.html' %}
 {% load static %}
-<!doctype html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+{% block body_block %}
     <h1>Detalhes Data de hoje {% now "SHORT_DATETIME_FORMAT" %}</h1>
     <img src="{% static '/css/images/urso3d.jpeg' %}" alt="My image">
-</body>
-</html>
+{% endblock %}

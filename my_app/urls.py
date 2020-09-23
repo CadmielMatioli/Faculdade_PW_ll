@@ -1,11 +1,9 @@
-from django.contrib import admin
 from django.urls import include, path
 from . import views
 
 app_name = 'my_app'
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('index/', views.index, name='index'),
     path('filmes_v2/', views.filmes_v2, name='films_v2'),
